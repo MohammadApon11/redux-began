@@ -5,7 +5,6 @@ import { decrement, increment,incrementByValue } from "../redux/features/counter
 const Counter = () => {
   const count = useSelector((state) => state.counter.value);
   const dispath = useDispatch();
-  console.log(count);
   return (
     <div className="ml-10 mt-10">
       <button
